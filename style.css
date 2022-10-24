@@ -27,6 +27,11 @@ nav div.logo{
 .flex{
     display: flex;
 }
+.flex-centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .grandezza{
     width: 80px;
@@ -51,5 +56,49 @@ nav ul.main-menu li{
     color: white;
 }
 
+.descrizione{
+    background-color: #b4d0e7;
+    width: 100%;
+    height: 35rem;
+}
 
+.content{
+    width: 45%;
+    height: 350px;
+    text-align: center;
+    font-size: 2.2rem;
+    padding-top: 40px;
+    margin: 0 auto;
+}
 
+.big-coll{
+    height: 20rem;
+    width: 20rem;
+    margin-top: 30px;
+    }
+
+.small-coll{
+    height: 20rem;
+    width: 20rem;
+    margin-top: 30px;
+}
+
+.testo{
+    font-size: 1rem;
+    text-align: left;
+}
+
+.button{
+    border: none;
+    background-color:#0061ff ;
+    color: white;
+
+}
+
+.padding{
+    padding-top: 40px;
+}
+
+.immagine{
+    width: 45rem;
+}
