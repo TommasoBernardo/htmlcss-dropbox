@@ -53,6 +53,13 @@
     height: 400px;
 }
 
+.informazione{
+    margin-bottom: 40px;
+    width: 300px;
+    background-color:aquamarine;
+    height: 300px;
+}
+
 .agency{
     background-color:violet;
     height: 200px;
@@ -124,7 +131,7 @@ section#contatti{
 footer section#contatti .container{
     padding-top: 80px;
 }
-footer section#contatti .blocchi{
+footer section#contatti .informazione{
     margin: 0 1rem;
 }
 main section#jumbo .big-container{
