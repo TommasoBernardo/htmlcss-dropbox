@@ -58,6 +58,12 @@
     height: 200px;
 }
 
+.difference{
+    background-color:darkorange;
+    height: 450px;
+}
+
+
 body{
     font-family: 'Fredoka One', cursive;
 }
@@ -116,6 +122,11 @@ main section#plans{
 
 main section#porta{
     padding-top: 70px;
+}
+
+main section#questions{
+    padding-top: 70px;
+    padding-bottom: 2rem;
 }
 
 
