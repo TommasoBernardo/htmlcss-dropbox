@@ -10,94 +10,36 @@ body{
 }
 
 header{
+    height: 80px;
+    background-color: aqua;
+}
+
+header nav{
     width: 100%;
-    height: 8vh;
-    justify-content: space-between;
+    height: 100%;
 }
-header section{
-    width: 25vw;
+
+header nav ul{
+    background-color:brown;
+    width: 23%;
+    height: 100%;
+    list-style-type: none;
 }
-nav div.logo{
-    flex-basis: 20%;
-    width: 20%;
-    padding:.75rem;
+
+header nav ul li{
+    display: inline;
 }
 
 .flex{
     display: flex;
 }
+
 .flex-centered{
-    display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.grandezza{
-    width: 80px;
-}
-
-nav ul.main-menu{
-    flex-basis: 80%;
-    padding:.75rem;
-    text-align: center;
-}
-nav ul.main-menu li{
-    display: inline;
-    padding: 10px;
-    font-size: 7px;
-}
-
-.bottone{
-    width: 41px;
-    font-size: 10px;
-    background-color: #0061ff;
-    border: none;
-    color: white;
-}
-
-.descrizione{
-    background-color: #b4d0e7;
-    width: 100%;
-    height: 35rem;
-}
-
-.content{
-    width: 45%;
-    height: 350px;
-    text-align: center;
-    font-size: 2.2rem;
-    padding-top: 40px;
-    margin: 0 auto;
-}
-
-.big-coll{
-    height: 20rem;
-    width: 20rem;
-    margin-top: 30px;
-    }
-
-.small-coll{
-    height: 20rem;
-    width: 20rem;
-    margin-top: 30px;
-}
-
-.testo{
-    font-size: 1rem;
-    text-align: left;
-}
-
-.button{
-    border: none;
-    background-color:#0061ff ;
-    color: white;
-
-}
-
-.padding{
-    padding-top: 40px;
-}
-
-.immagine{
-    width: 45rem;
+.flex-between{
+    justify-content: space-between;
+    align-items: center;
 }
