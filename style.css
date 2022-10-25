@@ -20,6 +20,9 @@
 .flex-wrap{
     flex-wrap: wrap;
 }
+
+
+
 .big-container{
     margin: 0 auto;
     max-width: 1100px;
@@ -48,6 +51,11 @@
     width: 300px;
     background-color: red;
     height: 400px;
+}
+
+.agency{
+    background-color:violet;
+    height: 200px;
 }
 
 body{
@@ -83,6 +91,21 @@ section#welcome{
     margin-bottom: 2rem
 }
 
+section#sponsor h2{
+    margin-bottom: 2rem;
+}
+
+section div.colonne div.col{
+    height:700px;
+    width: calc(100% / 3);
+    background-color: bisque;
+}
+
+section#porta{
+    background-color: #b4d0e7;
+    height: 40vh;
+}
+
 main section#jumbo .big-container{
     padding-top: 40px;
 }
@@ -91,14 +114,10 @@ main section#plans{
     padding-top: 100px;
 }
 
-section div.colonne div.col{
-    height:700px;
-    width: calc(100% / 3);
-    background-color: bisque;
+main section#porta{
+    padding-top: 70px;
 }
-section#sponsor h2{
-    margin-bottom: 2rem;
-}
+
 
 #plans div .long-colums{
     height: 200px;
@@ -119,7 +138,7 @@ div .col-60{
 }
 
 div.squares{
-    height: 500px;
+    height: 512px;
     background-color: gold;
 }
 
