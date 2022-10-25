@@ -111,6 +111,41 @@
     top: 205px;
     width: 720px;
 }
+.radio{
+    font-size: 12px;
+}
+
+.utente{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.user{
+    width: 12px;
+}
+.impostazione{
+    padding-left: 35px;
+}
+.prezzo{
+    padding-top: 15px;
+    font-size: 12px;
+}
+.mese{
+    color: gray;
+    font-size: 10px;
+    padding-top: 10px;
+}
+.stacco{
+    padding-top: 40px;
+}
+.formato{
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+.link{
+    font-size: 12px;
+}
 body{
     font-family: 'Fredoka One', cursive;
 }
@@ -152,14 +187,26 @@ section#welcome{
     margin-bottom: 2rem
 }
 
+section#plans h2{
+    font-size: 2.3rem;
+    padding-bottom: 4rem;
+}
+
+
 section#sponsor h2{
     margin-bottom: 2rem;
 }
 
+
+section#plans h3{
+    padding-left: 35px;
+    padding-top: 25px;
+}
 section div.colonne div.col{
     height:700px;
     width: calc(100% / 3);
     background-color: bisque;
+    border: 1px solid grey
 }
 
 section#porta{
