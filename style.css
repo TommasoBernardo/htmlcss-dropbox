@@ -32,8 +32,7 @@
 }
 
 .text{
-    background-color:chartreuse;
-    height: 500px ;
+    position: relative;
 }
 
 .margine{
@@ -78,10 +77,40 @@
     padding: 5px 10px;
     color: white;
 }
+
+.button-blue{
+    border: none;
+    background-color: #0060ff;
+    padding: 8px 10px;
+    color: white;
+}
 .impaginazione{
     padding-left: 70px;
 }
+.spaziature{
+    padding-top: 25px;
+}
 
+.finally{
+    width: 35%;
+    font-size: 1rem;
+    padding-top: 40px;
+}
+
+.annulla{
+    padding-top: 20px;
+}
+.donwload{
+    width: 40px;
+    padding-top: 40px;
+}
+
+.dimensione{
+    position: absolute;
+    left: 380px;
+    top: 205px;
+    width: 720px;
+}
 body{
     font-family: 'Fredoka One', cursive;
 }
@@ -114,6 +143,10 @@ header nav ul li{
 section#jumbo{
     background-color: #b4d0e7;
     height: 75vh;
+}
+
+section div h1{
+    font-size: 4.3rem;
 }
 section#welcome{
     margin-bottom: 2rem
