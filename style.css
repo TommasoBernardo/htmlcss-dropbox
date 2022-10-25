@@ -112,6 +112,21 @@ section#porta{
     height: 40vh;
 }
 
+section#contatti{
+    margin-top: 2rem
+}
+
+section#contatti{
+    background-color: black;
+    height: 75vh;
+}
+
+footer section#contatti .container{
+    padding-top: 80px;
+}
+footer section#contatti .blocchi{
+    margin: 0 1rem;
+}
 main section#jumbo .big-container{
     padding-top: 40px;
 }
