@@ -39,6 +39,22 @@ main section#jumbo .big-container{
     padding-top: 40px;
 }
 
+main section#plans{
+    padding-top: 100px;
+}
+
+div.colonne div.col{
+    height: 800px;
+    width: calc(100% / 3);
+    background-color: bisque;
+}
+
+#plans div .long-colums{
+    height: 200px;
+    background-color: darkgoldenrod;
+    margin-bottom: 2rem;
+}
+
 .flex{
     display: flex;
 }
@@ -58,7 +74,20 @@ main section#jumbo .big-container{
     max-width: 1100px;
 }
 
+.container{
+    margin: 0 auto;
+    max-width: 940px;
+}
+
 .text{
     background-color:chartreuse;
     height: 500px ;
+}
+
+.margine{
+    margin: 2rem 2rem;
+}
+
+.posizione{ 
+    margin-right: 2rem;
 }
