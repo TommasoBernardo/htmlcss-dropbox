@@ -30,6 +30,15 @@ header nav ul li{
     display: inline;
 }
 
+section#jumbo{
+    background-color: #b4d0e7;
+    height: 75vh;
+}
+
+main section#jumbo .big-container{
+    padding-top: 40px;
+}
+
 .flex{
     display: flex;
 }
@@ -42,4 +51,14 @@ header nav ul li{
 .flex-between{
     justify-content: space-between;
     align-items: center;
+}
+
+.big-container{
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+.text{
+    background-color:chartreuse;
+    height: 500px ;
 }
