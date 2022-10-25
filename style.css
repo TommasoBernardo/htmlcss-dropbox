@@ -153,6 +153,17 @@
     margin-left: 35px;
     margin-bottom: 2rem;
 }
+.sposta{
+    padding-top: 4.3rem;
+}
+.grandezza{
+    width: 600px;
+}
+.position{
+    position: absolute;
+    right: 20px;
+    top: 65px;
+}
 
 body{
     font-family: 'Fredoka One', cursive;
@@ -213,7 +224,6 @@ section#plans h3{
 section div.colonne div.col{
     height:700px;
     width: calc(100% / 3);
-    background-color: bisque;
     border: 1px solid grey
 }
 
@@ -256,9 +266,9 @@ main section#questions{
 
 
 #plans div .long-colums{
-    height: 200px;
-    background-color: darkgoldenrod;
+    border: 1px solid grey;
     margin-bottom: 2rem;
+    position: relative;
 }
 
 div .col-40{
