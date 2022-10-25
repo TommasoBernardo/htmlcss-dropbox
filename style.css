@@ -146,6 +146,14 @@
 .link{
     font-size: 12px;
 }
+.bordo{
+    width: 20px;
+    border-bottom: 3px solid gray;
+    padding: 1rem 1rem;
+    margin-left: 35px;
+    margin-bottom: 2rem;
+}
+
 body{
     font-family: 'Fredoka One', cursive;
 }
