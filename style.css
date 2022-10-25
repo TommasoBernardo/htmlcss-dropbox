@@ -34,6 +34,9 @@ section#jumbo{
     background-color: #b4d0e7;
     height: 75vh;
 }
+section#welcome{
+    margin-bottom: 2rem
+}
 
 main section#jumbo .big-container{
     padding-top: 40px;
@@ -53,6 +56,18 @@ div.colonne div.col{
     height: 200px;
     background-color: darkgoldenrod;
     margin-bottom: 2rem;
+}
+
+div .col-40{
+    width: 40%;
+    height: 500px;
+    background-color: darkmagenta;
+}
+
+div .col-60{
+    width: 60%;
+    height: 500px;
+    background-color:deepskyblue;
 }
 
 .flex{
