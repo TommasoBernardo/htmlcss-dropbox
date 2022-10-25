@@ -4,6 +4,51 @@
     box-sizing: border-box;
 }
 
+.flex{
+    display: flex;
+}
+
+.flex-centered{
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-between{
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.big-container{
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 940px;
+}
+
+.text{
+    background-color:chartreuse;
+    height: 500px ;
+}
+
+.margine{
+    margin: 2rem 2rem;
+}
+
+.posizione{ 
+    margin-right: 2rem;
+}
+
+.blocchi{
+    margin-bottom: 40px;
+    width: 300px;
+    background-color: red;
+    height: 400px;
+}
 
 body{
     font-family: 'Fredoka One', cursive;
@@ -46,8 +91,8 @@ main section#plans{
     padding-top: 100px;
 }
 
-div.colonne div.col{
-    height: 800px;
+section div.colonne div.col{
+    height:700px;
     width: calc(100% / 3);
     background-color: bisque;
 }
@@ -70,39 +115,3 @@ div .col-60{
     background-color:deepskyblue;
 }
 
-.flex{
-    display: flex;
-}
-
-.flex-centered{
-    justify-content: center;
-    align-items: center;
-}
-
-.flex-between{
-    justify-content: space-between;
-    align-items: center;
-}
-
-.big-container{
-    margin: 0 auto;
-    max-width: 1100px;
-}
-
-.container{
-    margin: 0 auto;
-    max-width: 940px;
-}
-
-.text{
-    background-color:chartreuse;
-    height: 500px ;
-}
-
-.margine{
-    margin: 2rem 2rem;
-}
-
-.posizione{ 
-    margin-right: 2rem;
-}
