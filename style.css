@@ -46,8 +46,6 @@
 .blocchi{
     margin-bottom: 40px;
     width: 300px;
-    background-color: red;
-    height: 400px;
 }
 
 .informazione{
@@ -207,12 +205,11 @@ section#jumbo{
     background-color: #b4d0e7;
     height: 75vh;
 }
-
-section div h1{
-    font-size: 4.3rem;
-}
 section#welcome{
     margin-bottom: 2rem
+}
+section div h1{
+    font-size: 4.3rem;
 }
 
 section#plans h2{
@@ -224,7 +221,23 @@ section#plans h2{
 section#sponsor h2{
     margin-bottom: 2rem;
 }
+section#operation-business h2{
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+section#operation-business h3{
+    font-size: 1.5rem;
+}
 
+section#operation-business p{
+    width: 250px;
+    font-size: 13px;
+    padding-top: 20px;
+}
+
+section#operation-business img{
+    width: 230px;
+}
 
 section#plans h3{
     padding-left: 35px;
@@ -241,6 +254,7 @@ section#welcome p{
     padding-left: 35px;
     font-size: .9rem;
 }
+
 section div.colonne div.col{
     height:700px;
     width: calc(100% / 3);
@@ -296,11 +310,12 @@ main section#questions{
 }
 
 div .col-40{
-    width: 40%;
+    width: 40%; 
 
 }
 
 div .col-60{
+    margin-bottom: 150px;
     width: 60%;     
 }
 
