@@ -96,6 +96,9 @@ section div.colonne div.col{
     width: calc(100% / 3);
     background-color: bisque;
 }
+section#sponsor h2{
+    margin-bottom: 2rem;
+}
 
 #plans div .long-colums{
     height: 200px;
@@ -115,3 +118,13 @@ div .col-60{
     background-color:deepskyblue;
 }
 
+div.squares{
+    height: 500px;
+    background-color: gold;
+}
+
+div.squares .square{
+    width:calc(100vw/3);
+    height:calc(100vw/3);
+    background-color: darkviolet;
+}
