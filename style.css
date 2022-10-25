@@ -84,6 +84,15 @@
     padding: 8px 10px;
     color: white;
 }
+
+.button-grey{
+    border: none;
+    background-color:#fdfdfd;
+    padding: 8px 10px;
+    color: gray;
+    border: 3px solid gray;
+
+}
 .impaginazione{
     padding-left: 70px;
 }
@@ -221,6 +230,17 @@ section#plans h3{
     padding-left: 35px;
     padding-top: 25px;
 }
+
+section#welcome h3{
+    padding-left: 35px;
+    padding-top: 65px;
+    padding-bottom: 40px;
+}
+section#welcome p{
+    width: 285px;
+    padding-left: 35px;
+    font-size: .9rem;
+}
 section div.colonne div.col{
     height:700px;
     width: calc(100% / 3);
@@ -250,7 +270,11 @@ footer section#contatti .informazione{
 main section#jumbo .big-container{
     padding-top: 40px;
 }
-
+main section#welcome img{
+    width: 550px;
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+}
 main section#plans{
     padding-top: 100px;
 }
@@ -273,14 +297,11 @@ main section#questions{
 
 div .col-40{
     width: 40%;
-    height: 500px;
-    background-color: darkmagenta;
+
 }
 
 div .col-60{
-    width: 60%;
-    height: 500px;
-    background-color:deepskyblue;
+    width: 60%;     
 }
 
 div.squares{
