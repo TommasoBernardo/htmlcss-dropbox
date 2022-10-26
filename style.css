@@ -60,7 +60,6 @@
 }
 
 .difference{
-    background-color:darkorange;
     height: 450px;
 }
 
@@ -237,7 +236,10 @@
 .yellow{
     background-color: #ffd830;
 }
-
+.hr{
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
 body{
     font-family: 'Fredoka One', cursive;
 }
@@ -288,6 +290,22 @@ section#sponsor h2{
     margin-bottom: 2rem;
 }
 
+section#questions h2{
+    font-size: 2rem;
+    padding-top: 40px;
+}
+section#questions img{
+    width: 12px;
+    margin-right: 40px;
+    margin-bottom: 15px;
+}
+section#questions p{
+    font-size: 13px;
+    padding-bottom: 25px;
+}
+section#questions hr{
+    margin-bottom: 25px;
+}
 section#porta h2{
     font-size: 2rem;
     color: #5d001f;
