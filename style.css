@@ -56,7 +56,6 @@
 }
 
 .agency{
-    background-color:violet;
     height: 200px;
 }
 
@@ -91,6 +90,16 @@
     border: 3px solid gray;
 
 }
+
+.button-white{
+    border: none;
+    background-color: white;
+    padding: 8px 10px;
+    margin-bottom: 20px;
+    margin-right: 110px
+}
+
+
 .impaginazione{
     padding-left: 70px;
 }
@@ -277,6 +286,15 @@ section#plans h2{
 
 section#sponsor h2{
     margin-bottom: 2rem;
+}
+
+section#porta h2{
+    font-size: 2rem;
+    color: #5d001f;
+}
+
+section#porta div.agency div{
+    max-width: 430px;
 }
 section#operation-business h2{
     font-size: 2rem;
