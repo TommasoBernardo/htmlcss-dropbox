@@ -172,6 +172,7 @@
     top: 65px;
 }
 
+
 body{
     font-family: 'Fredoka One', cursive;
 }
@@ -269,7 +270,16 @@ section#porta{
 section#contatti{
     margin-top: 2rem
 }
-
+section#sponsor .container{
+    margin-top: 150px;
+    margin-bottom: 140px;
+}
+section#sponsor h2{
+    font-size: 2rem;
+    width: 500px;
+    line-height: 1.5;
+    padding-bottom: 30px;
+}
 section#contatti{
     background-color: black;
     height: 75vh;
@@ -328,4 +338,34 @@ div.squares .square{
     width:calc(100vw/3);
     height:calc(100vw/3);
     background-color: darkviolet;
+}
+div.square div.card{
+    position: relative;
+    height: 50%;
+    width: 50%;
+}
+section#sponsor img{
+    max-width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50% );
+    filter: invert(1);
+}
+
+.green{
+    background-color: #a2d39b;
+    border: 15px solid #d1e9cd;
+}
+
+.bordeaux{
+    background-color:#61082b;
+}
+
+.light-blue{
+    background-color: #0093ce;
+}
+
+.orange{
+    background-color: #ff1c1c;
 }
