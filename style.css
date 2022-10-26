@@ -3,7 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* CLASSI */
+/* FLEX */
 .flex{
     display: flex;
 }
@@ -21,6 +22,9 @@
     flex-wrap: wrap;
 }
 
+/* FINE FLEX */
+
+/* INIZIO CONTAINER */
 .big-container{
     margin: 0 auto;
     max-width: 1100px;
@@ -30,6 +34,7 @@
     margin: 0 auto;
     max-width: 940px;
 }
+/* FINE CONTAINER */
 
 .text{
     position: relative;
@@ -63,14 +68,13 @@
 .logo{
     width: 90px;
 }
-
+/* BOTTONI */
 .button{
     border: none;
     background-color: #0060ff;
     padding: 5px 10px;
     color: white;
 }
-
 .button-blue{
     border: none;
     background-color: #0060ff;
@@ -94,7 +98,7 @@
     margin-bottom: 20px;
     margin-right: 110px
 }
-
+/* FINE BOTTONI */
 
 .impaginazione{
     padding-left: 70px;
@@ -204,6 +208,7 @@
     padding-left: 40px;
     padding-top: 40px;
 }
+/* COLORI SQUARES */
 .green{
     background-color: #a2d39b;
     border: 15px solid #d1e9cd;
@@ -236,6 +241,8 @@
 .yellow{
     background-color: #ffd830;
 }
+/* FINE COLORI SQUARES*/
+
 .hr{
     margin-top: 50px;
     margin-bottom: 25px;
@@ -246,9 +253,11 @@
 .up{
     margin-left: 10px;
 }
+/* FINE CLASSI*/
 body{
     font-family: 'Fredoka One', cursive;
 }
+/* HEADER */
 
 header{
     height: 80px;
@@ -274,6 +283,9 @@ header nav ul li{
     padding: 0 .5rem;
     padding-top: 1rem;
 }
+/* FINE HEADER */
+
+/* INIZIO SECTION */
 
 section#jumbo{
     background-color: #b4d0e7;
@@ -392,7 +404,63 @@ section#contatti{
     background-color: black;
     padding-bottom: 3rem;
 }
+/* FINE SECTION */
 
+/* INIZIO DIV */
+div .col-40{
+    width: 40%; 
+}
+
+div .col-60{    
+    margin-bottom: 150px;
+    width: 60%;     
+}
+
+div.squares .square{
+    width:calc(100vw/3);
+    height:calc(100vw/3);
+    background-color: #f5f5f5;
+}
+div.square div.card{
+    position: relative;
+    height: 50%;
+    width: 50%;
+}
+
+/* FINE DIV */
+
+/* INIZIO MAIN */
+main section#jumbo .big-container{
+    padding-top: 40px;
+}
+main section#welcome img{
+    width: 550px;
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+}
+main section#plans{
+    padding-top: 100px;
+}
+
+main section#porta{
+    padding-top: 70px;
+}
+
+main section#questions{
+    padding-top: 70px;
+    padding-bottom: 2rem;
+}
+/* FINE MAIN */
+
+/* ID */
+#plans div .long-colums{
+    border: 1px solid grey;
+    margin-bottom: 2rem;
+    position: relative;
+}
+/* FINE ID */
+
+/* INIZIO FOOTER */
 footer section#contatti .container{
     padding-top: 80px;
 }
@@ -429,51 +497,5 @@ footer section#contatti p{
     display: inline;
 
 }
-main section#jumbo .big-container{
-    padding-top: 40px;
-}
-main section#welcome img{
-    width: 550px;
-    padding-top: 1.5rem;
-    padding-left: 1rem;
-}
-main section#plans{
-    padding-top: 100px;
-}
+/* FINE FOOTER */
 
-main section#porta{
-    padding-top: 70px;
-}
-
-main section#questions{
-    padding-top: 70px;
-    padding-bottom: 2rem;
-}
-
-
-#plans div .long-colums{
-    border: 1px solid grey;
-    margin-bottom: 2rem;
-    position: relative;
-}
-
-div .col-40{
-    width: 40%; 
-
-}
-
-div .col-60{    
-    margin-bottom: 150px;
-    width: 60%;     
-}
-
-div.squares .square{
-    width:calc(100vw/3);
-    height:calc(100vw/3);
-    background-color: #f5f5f5;
-}
-div.square div.card{
-    position: relative;
-    height: 50%;
-    width: 50%;
-}
