@@ -171,6 +171,22 @@
     right: 20px;
     top: 65px;
 }
+.green{
+    background-color: #a2d39b;
+    border: 15px solid #d1e9cd;
+}
+
+.bordeaux{
+    background-color:#61082b;
+}
+
+.light-blue{
+    background-color: #0093ce;
+}
+
+.orange{
+    background-color: #ff1c1c;
+}
 
 
 body{
@@ -353,19 +369,3 @@ section#sponsor img{
     filter: invert(1);
 }
 
-.green{
-    background-color: #a2d39b;
-    border: 15px solid #d1e9cd;
-}
-
-.bordeaux{
-    background-color:#61082b;
-}
-
-.light-blue{
-    background-color: #0093ce;
-}
-
-.orange{
-    background-color: #ff1c1c;
-}
