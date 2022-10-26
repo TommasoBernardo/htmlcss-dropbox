@@ -50,9 +50,6 @@
 
 .informazione{
     margin-bottom: 40px;
-    width: 300px;
-    background-color:aquamarine;
-    height: 300px;
 }
 
 .agency{
@@ -243,6 +240,12 @@
     margin-top: 50px;
     margin-bottom: 25px;
 }
+.lingua{
+    margin-left: 300px;
+}
+.up{
+    margin-left: 10px;
+}
 body{
     font-family: 'Fredoka One', cursive;
 }
@@ -396,6 +399,36 @@ footer section#contatti .container{
 footer section#contatti .informazione{
     margin: 0 1rem;
 }
+
+footer section#contatti h3{
+    color: white;
+    padding-bottom: 20px;
+}
+
+footer section#contatti ul li{
+    font-size: 12px;
+    line-height: 3;
+    color: white;
+    list-style-type: none;
+}
+footer section#contatti ul{
+    padding-bottom: 100px;
+}
+footer section#contatti hr{
+    width: 90px;
+    margin-bottom: 30px;
+}
+footer section#contatti img{
+    width: 20px;
+    filter: invert(1);
+    padding-right: 8px;
+}
+footer section#contatti p{
+    font-size: 12px;
+    color: grey;
+    display: inline;
+
+}
 main section#jumbo .big-container{
     padding-top: 40px;
 }
@@ -432,11 +465,6 @@ div .col-40{
 div .col-60{
     margin-bottom: 150px;
     width: 60%;     
-}
-
-div.squares{
-    height: 512px;
-    background-color: gold;
 }
 
 div.squares .square{
