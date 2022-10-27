@@ -281,6 +281,7 @@ header nav ul li{
     font-size: 12px;
     padding: 0 .5rem;
     padding-top: 1rem;
+    vertical-align: baseline;
 }
 /* FINE HEADER */
 
